@@ -1,0 +1,48 @@
+Lams-MacBook-Pro-3:compare comficker$ cd ..
+Lams-MacBook-Pro-3:WORK comficker$ cd ..
+Lams-MacBook-Pro-3:PJ comficker$ ls
+WORK		compargram
+Lams-MacBook-Pro-3:PJ comficker$ cd ..
+Lams-MacBook-Pro-3:Desktop comficker$ ls
+$RECYCLE.BIN	PJ		TRIP		WORK		untitled folder
+Lams-MacBook-Pro-3:Desktop comficker$ cd TRIP
+Lams-MacBook-Pro-3:TRIP comficker$ ls
+back			convention		undercontruction
+collector		fact
+Lams-MacBook-Pro-3:TRIP comficker$ cd back
+Lams-MacBook-Pro-3:back comficker$ ls
+Dockerfile		config			requirements.txt
+README.md		gcsa.key.json		tripvn
+apps			manage.py		utils
+base			public.uml		venv
+Lams-MacBook-Pro-3:back comficker$ ls -ln
+total 136
+-rw-r--r--   1 502  20    212 Aug 21 10:02 Dockerfile
+-rw-r--r--   1 502  20    849 Aug 21 10:02 README.md
+drwxr-xr-x  14 502  20    448 Sep 10 16:43 apps
+drwxr-xr-x  18 502  20    576 Sep 11 16:31 base
+drwxr-xr-x   5 502  20    160 Sep 10 16:28 config
+-rw-r--r--   1 502  20   2357 Aug 21 10:35 gcsa.key.json
+-rw-r--r--   1 502  20    607 Aug 21 10:02 manage.py
+-rw-r--r--   1 502  20  45643 Aug 21 10:02 public.uml
+-rw-r--r--   1 502  20    995 Sep 10 16:26 requirements.txt
+drwxr-xr-x   7 502  20    224 Sep 27 10:34 tripvn
+drwxr-xr-x   8 502  20    256 Sep 22 12:53 utils
+drwxr-xr-x   7 502  20    224 Aug 21 10:16 venv
+Lams-MacBook-Pro-3:back comficker$ nano .gitignore
+
+  GNU nano 2.0.6              File: .gitignore                                  
+
+virtualenv
+venv
+*Copy
+__ pycache __
+**/dev.env.js
+
+*.key.json
+
+.vscode/
+static/
+public/
+
+
